@@ -1,3 +1,7 @@
+/* Create a password generator using alphabetic characters, given the length of desired password. 
+ * Include randomization so password is unpredictable. 
+ */
+
 let alphabet = Array("abcdefghijklmnopqrstuvwxyz")
 
 func passwordGenerator(length: Int) -> String {
