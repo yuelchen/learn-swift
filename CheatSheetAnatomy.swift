@@ -10,7 +10,6 @@ var variableName : Type
 let constantName : Type
 */
 
-
 /* Basic Data Types
 - String : "Hello World"
 - Int (Integer) : 27
@@ -19,6 +18,12 @@ let constantName : Type
 - Bool (Boolean) : true / false
 - Array : [1, 2, 3]
 - Dictionary : [key : value]
+*/
+
+/* Defining Ranges
+a...b   Close Range (any value between a and b - including b)
+a..<b   Half Open Range (any value between a and less than b)
+...b    One Sided Range (any value up to b - including b)
 */
 
 // Structures Anatomy
