@@ -35,6 +35,15 @@ func myFunction(input: Type) -> Type {
   return output  
 }
 
+/* Operators
+==    is equal to
+!=    not equal to
+>     greater than
+<     less than
+>=    greater than or equal to
+<=    less than or equal to
+*/
+
 // If Statement
 if condition {
   //do something if condition is met
