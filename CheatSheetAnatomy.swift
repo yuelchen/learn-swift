@@ -26,6 +26,18 @@ a..<b   Half Open Range (any value between a and less than b)
 ...b    One Sided Range (any value up to b - including b)
 */
 
+// Dictionary (collection of key value pairs) - inferred type
+let dictionary = ["first" : "John", 
+                  "last" : "Doe", 
+                  "age" : 12] 
+
+let reviews : [String: Int] = ["The Myth" : 6, 
+                               "Crazy Rich Asians" : 7, 
+                               "The Farewell" : 8]
+
+// Retrieve dictionary value
+var TheMythReview = reviews["The Myth"]
+
 // Structures Anatomy
 struct MyStructure {
 }
