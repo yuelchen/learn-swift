@@ -10,6 +10,15 @@ var variableName : Type
 let constantName : Type
 */
 
+// Assign nil (null) to defined data type variable using ?
+var username : String? = nil
+print(username!) //here we use exclamation point to clearly say that we definitely know username is not nil
+
+// Still want to print but unsure if it's nil? - alternative
+if username != nil {
+  print(username)
+}
+
 /* Basic Data Types
 - String : "Hello World"
 - Int (Integer) : 27
@@ -31,9 +40,9 @@ let dictionary = ["first" : "John",
                   "last" : "Doe", 
                   "age" : 12] 
 
-let reviews : [String: Int] = ["The Myth" : 6, 
-                               "Crazy Rich Asians" : 7, 
-                               "The Farewell" : 8]
+let reviews : [String : Int] = ["The Myth" : 6, 
+                                "Crazy Rich Asians" : 7, 
+                                "The Farewell" : 8]
 
 // Retrieve dictionary value
 var TheMythReview = reviews["The Myth"]
