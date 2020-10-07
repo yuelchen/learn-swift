@@ -48,3 +48,20 @@ print(calculator(integer1: 2, integer2: 1) { $0 + $1 })
 print(calculator(integer1: 6, integer2: 4) { $0 - $1 })
 print(calculator(integer1: 5, integer2: 7) { $0 * $1 })
 print(calculator(integer1: 9, integer2: 3) { $0 / $1 })
+
+//====================================================================================================
+
+// Let's take a look at using closures another way - using Maps
+
+let integerArray = [ 2, 5, 6, 7, 9, 10]
+
+func addOneToValue(value: Int) -> Int {
+    return value + 1
+}
+
+let addOneIntegerArray = integerArray.map(addOneToValue)
+print(addOneIntegerArray)
+
+// Try now to do it within passing function but using closure within map argument
+let addOneIntegerArrayClosure = integerArray.map({ (value) in value + 1 })
+print(addOneIntegerArrayClosure)
