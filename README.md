@@ -1,4 +1,4 @@
-# starting-swift
+# learn-swift
 A repository for storing code snippets to understand Swift programming, specifically iOS development with Xcode.
 
 ## About Swift (https://docs.swift.org/swift-book/index.html)
